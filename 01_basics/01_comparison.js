@@ -8,10 +8,10 @@
 
 console.log(null>0);
 console.log(null<0);
-console.log(null>=0);
-console.log(null==0);
+console.log(null>=0);   //true
+console.log(null==0);   //false
 
-//In this comparison(>=,>,<,<=) convert null into a number thatswhy output is true
+//In this, comparison(>=,>,<,<=) convert null into a number thatswhy output is true
 //  equality check(==) do not convert a null into a number thatwhy output is false 
 
 console.log("2"==2);   //it checks only number weather it is in string or not
