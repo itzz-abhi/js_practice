@@ -38,10 +38,10 @@ user2.email="hindol8433@gmail.com";
 user2.greeting = function(){
     return "Hello user....!";
 }
-console.log(user2.greeting());
+// console.log(user2.greeting());
 
 user2.greetings = function(){
     return `Hello ${this.name}`;
 }
 // console.log(user2.greetings);
-console.log(user2.greetings());
+// console.log(user2.greetings());
