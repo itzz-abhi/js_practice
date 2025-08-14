@@ -69,4 +69,19 @@ function handleArray(arr){           //arr is the parameter which should be an a
         return arr[2];
     }
 }
-console.log(handleArray(myarr));     //myarr refer to the array
+// console.log(handleArray(myarr));     //myarr refer to the array
+
+
+console.log(addone(2));
+function addone(num){
+    return num +1;
+}
+
+// console.log(addone(2));
+
+
+// console.log(addtwo(3))    --->Cannot access 'addtwo' before initialization
+const addtwo = function(num){
+    return num +2;
+}
+ console.log(addtwo(3));
