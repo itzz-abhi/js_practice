@@ -96,6 +96,10 @@ for(const [index,value] of myarr.entries()){
     // console.log(index);
 }
 
+
+// In JavaScript, the forEach method passes three arguments to its callback function in this specific order:
+// array.forEach(function (index,value,array){
+// })
 const myarr1 =[1,2,3,4,5];
 myarr1.forEach(function (i){
     // console.log(i*2);
