@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .bg-black{
+            background-color: black;
+            color:white;
+            height:100vh;
+            width:100vw;
+        }
+        .heading{
+            text-align: center;
+        }
+        .para{
+            margin-top:100px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-black">
+        <h1 id="head" class="heading"><span style="display:none">Text test</span>Document Object Model Learning</h1>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, numquam.</p>
+    </div>
+</body>
+</html>
+
+//document.getElementByID => name of a id
+//document.getElementByClassName => name of a class
+//document.getElementByID/ClassName(Id/classname).getAttribute => gives Attribute
+//document.getElementByID/ClassName(Id/classname).setAttribute => set the Attribute in class or id
+//for styling:-
+//document.getElementByID("id").style.styleProperties
+//.innerHTML => it shows including tags if inside
+//.innerText => it shows only the visible part if we hide a text through style it did not show
+//.textContent => it shows all the text(visible or hide) both
